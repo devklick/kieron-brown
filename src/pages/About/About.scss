@@ -1,0 +1,19 @@
+@import "../../styleConstants.scss";
+
+.page-about {
+    @include page;
+
+    &__bio-card {
+        @include card;
+
+        &__name {
+            color: white;
+            font-size: 24px;
+            margin: 12px;
+        }
+
+        &__profiles {
+            @include label-container;
+        }
+    }
+}

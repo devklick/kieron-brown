@@ -1,0 +1,13 @@
+@import "../../styleConstants.scss";
+
+.page-work {
+    @include page;
+
+    &__job-cards {
+        @include card-board;
+    }
+
+    &__order-by-list {
+        align-self: flex-end;
+    }
+}

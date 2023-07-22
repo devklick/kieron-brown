@@ -1,0 +1,8 @@
+@import "../../styleConstants.scss";
+
+.page-projects {
+    @include page;
+}
+.projects__card-container {
+    @include card-board;
+}

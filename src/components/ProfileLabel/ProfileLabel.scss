@@ -1,0 +1,5 @@
+@import "../../styleConstants.scss";
+
+.label {
+    @include label;
+}

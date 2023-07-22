@@ -1,0 +1,22 @@
+@import "../../styleConstants.scss";
+
+.circular-image {
+    width: calc(100dvw / 2);
+    max-width: 500px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: $color-secondary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px 10px $color-tertiary;
+}
+
+.circular-image-img {
+    background: url("../../assets/KieronBrown.jpeg");
+    background-size: contain;
+    width: calc(100% - 8px);
+    aspect-ratio: 1/1;
+    background-position: center;
+    clip-path: circle();
+}
