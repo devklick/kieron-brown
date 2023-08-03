@@ -34,6 +34,7 @@ import RdsIcon from "../../assets/AwsRds-Icon.svg";
 import SnsIcon from "../../assets/AwsSns-Icon.svg";
 import DynamoDBIcon from "../../assets/AwsDynamoDB-Icon.svg";
 import MuiIcon from "../../assets/Mui-Icon.svg";
+import ElbIcon from "../../assets/AwsElb-Icon.svg";
 
 type KnownTechMetadata = {
   siteUrl: string;
@@ -114,7 +115,7 @@ const knownTech = {
     iconUrl: ConsoleIcon,
   },
   nodeJs: {
-    displayName: "NodeJS",
+    displayName: "Node.js",
     siteUrl: "https://nodejs.org/en",
     iconUrl: NodeJsIcon,
   },
@@ -222,6 +223,11 @@ const knownTech = {
     displayName: "MUI",
     siteUrl: "https://mui.com/",
     iconUrl: MuiIcon,
+  },
+  elb: {
+    displayName: "AWS ELB",
+    siteUrl: "https://aws.amazon.com/elasticloadbalancing/",
+    iconUrl: ElbIcon,
   },
 } satisfies Record<string, KnownTechMetadata>;
 
